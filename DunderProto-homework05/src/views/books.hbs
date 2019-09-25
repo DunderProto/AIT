@@ -1,0 +1,22 @@
+<form method="GET" action="">
+	<label for="author">Author: </label>
+	<input type="text" name="author">
+	<input type="submit" value="filter">
+</form>
+
+<table>
+	<thead>
+		<th>Title</th>
+		<th>Author</th>
+		<th>ISBN</th>
+	</thead>
+	<tbody>
+		{{#each books}}
+		<tr>
+			<td><a href='/books/{{slug}}'>{{title}}</a></td>
+			<td>{{author}}</td>
+			<td>{{isbn}}</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>

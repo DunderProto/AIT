@@ -1,0 +1,37 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+.game {
+    display: none;
+    flex-wrap: wrap;
+    text-align: center;
+    display: inline-block;
+}
+
+.result {
+    display: none;
+}
+
+.reset {
+    display: none;
+}
+
+.error-message {
+    display: none;
+}
+
+.card {
+    border: solid 1px black;
+    padding: 80px;
+    margin: 1px;
+    display: inline-block;
+}
+
+.cardValue {
+    visibility: hidden;
+}
+
+.flip {
+    color: red;
+}
