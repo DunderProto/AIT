@@ -6,7 +6,6 @@ const clear = require('clear');
 const wcwidth = require('wcwidth');
 
 readlineSync.question("Press <ENTER> to start game");
-console.log(wcwidth('😎'));
 if (process.argv.length <= 2) {
     const setUp = readlineSync.question('Enter the number of rows, columns, and consecutive "pieces" for win (all separated by commas... for example: 6,7,4) ');
     console.log("Using row, col and consecutive: " + setUp);

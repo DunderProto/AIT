@@ -10,7 +10,7 @@ The main purpose of this project is to understand classes in JavaScript as well 
 
 ## Running the Project
 
-In the terminal, *cd* into the *src* folder of the project directory and type *node app.js*. A local server should be running on port 3000. To see the images, visit the */gallery* route and a randomly generated number of gecko images should appear.
+In the terminal, *cd* into the *src* folder of the project directory and type *node app.js*. A local server should be running on port 3000. To see the images, visit the */gallery* route and a randomly generated number of random gecko images should appear.
 
 ## Example
 
