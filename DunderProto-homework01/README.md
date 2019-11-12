@@ -15,3 +15,11 @@ In the src directory of the project's folder, enter *node game.js* in the termin
 ## Example Game
 
 ![Connectmoji](Connectmoji.png)
+
+## Scripted moves
+
+There is an alternative way of running the game without having to go through prompted questions. After *node game.js*, you'll need to input a particular string of values that are comma separated which can autoplay the game for you. For example, "X,XOAABC,4,4,3". The first character, *X*, represents the player's piece. The next two characters represent the pieces that are to be played on the board (X is the player, O is the computer) and the remaining values consist of alternating column letters that represent as moves for the pieces. The last three numbers dictate the size of the board, same as before (rows, columns, and consectuive pieces needed to win).
+
+## Example Script
+
+![Scripts](Scripts.png)
