@@ -4,6 +4,6 @@ The main purpose of this project is to understand classes in JavaScript as well 
 
 ## Dependencies
 
-*path*
-*net*
+*path*__
+*net*__
 *fs* 
